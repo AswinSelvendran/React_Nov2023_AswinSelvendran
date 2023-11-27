@@ -1,0 +1,44 @@
+body.bb{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image:'' ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image:url(' https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjpd6aCGe9Ei4bIxlRotRfKNQI6b5bEaBdzA&usqp=CAU');
+    background-size: cover;
+}
+.hi{
+    height: 80vh;
+}
+
+.site-footer {
+    background-color:rgb(0, 0, 0); /* Change this color to your desired background color */
+    color: #fff;
+    height: 160px;
+    text-align: center;
+}
+
+.social-icons a {
+    font-size: 24px;
+    text-decoration: none;
+    align-items: center;
+    color: rgb(0, 183, 255);
+    transition: color 0.3s ease-in-out;
+}
+
+.text-white:hover{
+    color:rgb(255, 114, 206);
+}
+
+.text-white1:hover{
+    color:rgb(0, 102, 255);
+}
+
+.text-white2:hover{
+    color:red;
+}
+
+.text-white3:hover{
+    color:green;
+}

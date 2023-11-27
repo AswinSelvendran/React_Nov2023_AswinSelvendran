@@ -1,0 +1,98 @@
+.App {
+    text-align: center;
+}
+
+body.bg1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url("https://w0.peakpx.com/wallpaper/422/603/HD-wallpaper-dark-light-pink-shades-pink-background-pink-background.jpg");
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+}
+
+.mainbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+    color: rgb(255, 255, 255); /* Added text color property */
+}
+
+.heading {
+    text-align: center;
+    color: rgb(255, 255, 255); /* Added text color property */
+}
+
+.name {
+    margin-top: 50px;
+    width: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: black; /* Added text color property */
+}
+
+.password {
+    margin-top: 20px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    color: black; /* Added text color property */
+}
+
+.button {
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    color: black; /* Added text color property */
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: beige;
+}
+
+.anchor2 {
+    margin-bottom: 20px;
+    color: black; /* Added text color property */
+    font-size: 19px;
+}
+
+.anchor2:hover {
+    font-size: 20px;
+}
+
+.forgot {
+    color: red;
+    font-size: 18px;
+}
+
+.anchor1:hover {
+    font-size: 19px;
+}
